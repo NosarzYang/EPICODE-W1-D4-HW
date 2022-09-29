@@ -12,11 +12,19 @@ body {
   height: 600px;
   width: 400px;
   top: 30px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 #pinterest_effects:hover {
   transition: ;
 }
 #save-button {
+  position: absolute;
+  top: 0;
+  right: 0;
   padding-top: 30px;
   color: white;
   text: bold;
@@ -35,16 +43,34 @@ body {
   cursor: pointer;
   height: 30px;
   width: 30px;
+  position: absolute;
+
+  bottom: 0;
+  left: 0;
 }
 #share {
   background-color: #edeceb;
   height: 30px;
   width: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+
+  bottom: 0;
+  left: 50px;
+  right: 0;
 }
 #other {
   background-color: #edeceb;
   height: 30px;
   width: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+
+  bottom: 0;
+
+  right: 0;
 }
 #pix {
   position: absolute;
